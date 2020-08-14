@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Willkommen bei der Rechtsanwaltskanlei Michaela Duve</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            display: grid;
+            margin: auto;
+            /* display: flex; */
+            grid-template-rows: 200px 200px 200px;
+            grid-template-areas: 'top' 'middle' 'bottom';
+            border: 1px solid red;
+            justify-content: center;
+            /* align-content: center */
+        }
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        body{
+            font-family: 'Ubuntu', sans-serif;
+            /* font-family: 'Cantarell', sans-serif; */
+            /* font-family: 'Roboto Mono', monospace; */
+        }
+        h1, h2, h3, h4, h5, h6{
+            font-family: 'Ubuntu', sans-serif;
+        }
+        #HeadOne{
+            grid-area: top;
+        }
+        #HeadTwo{
+            grid-area: middle;
+        }
+        #TextThree{
+            grid-area: bottom;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="box" id="#HeadOne">Herzlich Willkommen!</h1>
+        <h1 class="box" id="#HeadTwo">Diese Website befindet sich im Aufbau.</h1>
+        <div class="box" id="TextThree">
+            Kontakt: <br>
+            RAin Michaela Duve <br>
+            Bahnhofstrasse 6 <br>
+            91126 Schwabach <br>
+            <a href="mailto:info@ra-duve.de">info@ra-duve.de</a>
+        </div>
+    </div>
+</body>
+</html>
