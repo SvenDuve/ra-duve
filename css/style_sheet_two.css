@@ -1,0 +1,153 @@
+body {
+
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+.containerDesign {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: minmax(100px, auto);
+    justify-content: center;  /* zentriert im container entlang der achse */
+}
+
+.box {
+    display: grid;
+    align-items: center; /* richtet elemente an der achse senkrecht in der box aus für flex*/
+    justify-content: flex-start; /* richtet elemente an der achse waagrecht in der box aus für grid*/
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.box__quote {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 4px solid rgb(150, 148, 136);
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 10px;
+}
+
+.box__textnormal {
+    text-align: left;
+    /* border-left: 4px solid rgb(150, 148, 136); */
+
+}
+
+.box__textepisode {
+    text-align: right;
+    /* border-left: 4px solid rgb(150, 148, 136); */
+}
+
+.box__headingnormal {
+    text-align: left;
+    font-size: 15px;
+}
+
+.box__headingepisode {
+    text-align: right;
+    font-size: 15px;
+}
+
+
+
+.button {
+    display: inline-block;
+    border-radius: 0px;
+    border: 0px;
+    padding: 10px 30px;
+
+}
+
+
+.box__headingMenuNormal {
+    text-align: left;
+    font-size: 20px;
+}
+
+.box__headingMenuNormal--mod {
+    
+}
+
+.box__headingMenuLarge {
+    text-align: left;
+    font-size: 30px;
+}
+
+
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+
+
+
+.listHighLevel {
+    list-style-type: circle;    
+}
+
+.listHighLevel__important {
+    font-weight: bold;
+}
+
+.listOrdered {
+    list-style-type: upper-latin;    
+}
+
+.listOrdered__important {
+    font-weight: bold;
+}
+
+
+
+.link {
+    color: orangered;
+}
+
+
+a:hover {
+    color: orchid;
+}
+
+
+a:visited {
+    color: brown
+}
+
+
+.color_dark {
+    background-color: rgb(63, 63, 114);
+}
+
+.color_medium {
+    background-color: rgb(57, 182, 57);
+}
+
+.color_light {
+    background-color: rgb(178, 151, 197);
+}
+
+
+
+.quoteBox {
+
+}
+
+.quoteBox__statement {
+
+}
+
+.quoteBox__exclamation {
+
+}
