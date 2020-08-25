@@ -1,0 +1,88 @@
+.containerDesign {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: minmax(100px, auto);
+    justify-content: center;  /* zentriert im container entlang der achse */
+}
+
+
+.box {
+    display: flex;
+    align-items: center; /* richtet elemente an der achse senkrecht in der box aus für flex*/
+    justify-content: space-between; /* richtet elemente an der achse waagrecht in der box aus für grid*/
+    padding: 20px;
+}
+
+
+.square {
+    display: flex;
+    border-radius: 0px;
+    width: 80px;
+    height: 50px;
+    padding: 15px;
+}
+
+
+
+.circle {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+
+.brown-light {
+    background-color: rgb(211, 115, 78);
+}
+
+
+.brown-medium {
+    background-color: rgb(167, 92, 62);
+}
+
+.brown-dark {
+    background-color: rgb(93, 43, 34);
+}
+
+
+.green-light {
+    background-color: rgb(146, 235, 146);
+}
+
+.green-medium {
+    background-color: rgb(120, 187, 120);
+}
+
+.green-dark {
+    background-color: rgb(38, 121, 38);
+}
+
+
+
+.blue-light {
+    background-color: rgb(160, 160, 240);
+}
+
+.blue-medium {
+    background-color: rgb(103, 103, 170);
+}
+
+.blue-dark {
+    background-color: rgb(43, 43, 119);
+}
+
+
+.grey-light {
+    background-color: rgb(209, 209, 209);
+}
+
+.grey-medium {
+    background-color: rgb(153, 153, 153);
+}
+
+.grey-dark {
+    background-color: rgb(100, 100, 100);
+}

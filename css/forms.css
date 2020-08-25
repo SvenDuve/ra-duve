@@ -1,0 +1,83 @@
+.containerDesign {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(100px, auto);
+    justify-content: center;  /* zentriert im container entlang der achse */
+    /* border: 1px solid green; */
+}
+
+.nestedCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+.cardSquare {
+    justify-self: center;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    padding: 25px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px 5px 15px 5px rgb(112, 112, 112);
+}
+
+.cardSqare--round {
+    border-radius: 5px;
+}
+
+
+.cardRectangle {
+    justify-self: center;
+    grid-column-start: span 2;
+    display: flex;
+    border-radius: 0;
+    width: 750px;
+    height: 300px;
+    margin: 50px;
+    padding: 25px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px 5px 15px 5px rgb(112, 112, 112);
+}
+
+.cardRectangle--round {
+    border-radius: 5px;
+}
+
+
+
+
+.cardOneBig {
+    justify-self: center;
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+    display: flex;
+    border-radius: 0;
+    width: 750px;
+    height: 750px;
+    margin: 50px;
+    padding: 25px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px 5px 15px 5px rgb(112, 112, 112);
+}
+
+
+.cardOneBig--round {
+    border-radius: 5px;
+}
+
+.circle {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 50%;
+}

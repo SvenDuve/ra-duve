@@ -1,0 +1,7 @@
+.happyDappy {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: flip;
+    animation-duration: 2s;
+}

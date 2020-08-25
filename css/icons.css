@@ -1,0 +1,19 @@
+.containerDesign {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: minmax(100px, auto);
+    justify-content: center;  /* zentriert im container entlang der achse */
+}
+
+
+.box {
+    display: flex;
+    align-items: flex-end; /* richtet elemente an der achse senkrecht in der box aus für flex*/
+    justify-content: space-between; /* richtet elemente an der achse waagrecht in der box aus für grid*/
+    padding: 20px;
+}
+
+ion-icon {
+    font-size: 32px;
+    color: rgb(151, 76, 47);
+}
