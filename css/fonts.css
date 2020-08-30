@@ -1,7 +1,7 @@
 
 .containerDesign {
     display: grid;
-    grid-template-columns: 50%;
+    grid-template-columns: 75%;
     grid-template-rows: minmax(100px, auto);
     justify-content: center;  /* zentriert im container entlang der achse */
 }
@@ -26,128 +26,27 @@
 }
 
 
-.font_Cinzel {
-    
-    font-family: 'Cinzel', serif;
-
-}
-
-
-.font_CourierPrime {
-    
-    font-family: 'Courier Prime', monospace;
-
-}
-
-
-.font_Dancing {
-
-    font-family: 'Dancing Script', cursive;
-
-}
-
-
-.font_Finger {
-
-    font-family: 'Finger Paint', cursive;
-}
-
-
-.font_GFS {
-
-    font-family: 'GFS Neohellenic', sans-serif;
-}
-
-
-.font_FellGreat {
-    font-family: 'IM Fell Great Primer SC', serif;
-
-}
-
-
-.font_Inconsolata {
-    font-family: 'Inconsolata', monospace;
-
-}
-
-
-.font_Lateef {
-    font-family: 'Lateef', cursive;
-
-}
-
-
-.font_Martel {
-    font-family: 'Martel', serif;
-
-}
-
-
-.font_Monoton {
-    font-family: 'Monoton', cursive;
-
-}
-
-
-.font_Montserrat {
-    font-family: 'Montserrat', sans-serif;
-    
-}
-
-
-.font_PermanentMarker {
-    font-family: 'Permanent Marker', cursive;
-
-}
-
-
-.font_Playfair {
-    font-family: 'Playfair Display', serif;
-
-}
-
-.font_Quattrocento {
-    font-family: 'Quattrocento', serif;
-
-}
-
-
 .font_Quicksan {
     font-family: 'Quicksand', sans-serif;
     
 }
 
-.font_Recursive {
-    font-family: 'Recursive', sans-serif;
+.font_oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font_Lato {
+    font-family: 'Lato', sans-serif;
 
 }
 
-
-.font_Roboto {
-    font-family: 'Roboto Condensed', sans-serif;
-
-}
-
-
-.font_RobotoMono {
-    font-family: 'Roboto Mono', monospace;
+.font_montserrat {
+    font-family: 'Montserrat', sans-serif;
 
 }
 
-
-.font_Pro {
-    font-family: 'Source Code Pro', monospace;
-
-}
-
-.font_Viga {
-    font-family: 'Viga', sans-serif;
+.font_raleway {
+    font-family: 'Raleway', sans-serif;
 
 }
-
-
-
-
-
-
 
