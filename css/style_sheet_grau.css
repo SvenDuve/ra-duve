@@ -1,0 +1,254 @@
+:root {
+    --light: #88BDBC;
+    --light-middle: #254E58;
+    --dark: #112D32;
+    --dark-grey: #4F4A41;
+    --light-grey: #6E6658;
+    color: white;
+
+}
+
+
+.font_oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.font_montserrat {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.light {
+    background-color: var(--light);
+}
+
+.light-middle {
+    background-color: var(--light-middle);
+}
+
+.dark {
+    background-color: var(--dark);
+}
+
+.light-grey {
+    background-color: var(--light-grey);
+}
+
+.dark-grey {
+    background-color: var(--dark-grey);
+}
+
+
+/* 
+.minimalYetWarmOne {
+    background-color: #EAE7DC;
+}
+
+.minimalYetWarmTwo {
+    background-color: #D8C3A5;
+}
+
+.minimalYetWarmThree {
+    background-color: #8E8D8A;
+}
+
+.minimalYetWarmFour {
+    background-color: #E98074;
+}
+
+.minimalYetWarmFive {
+    background-color: #E85A4F;
+} */
+
+
+
+
+
+
+/* body {
+
+    font-family: 'Abel', sans-serif;
+
+} */
+
+
+.containerDesign {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: minmax(100px, auto);
+    justify-content: center;  /* zentriert im container entlang der achse */
+    background-color: var(--light);
+}
+
+
+
+.nestedCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: var(--light);
+    /* border: 1px solid red; */
+}
+
+
+
+.cardSquare {
+    justify-self: center;
+    display: grid;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    padding: 25px;
+    box-shadow: 5px 5px 15px 5px rgb(112, 112, 112);
+}
+
+
+
+.cardRectangle {
+    justify-self: center;
+    grid-column-start: span 2;
+    display: grid;
+    border-radius: 0;
+    width: 750px;
+    height: 300px;
+    margin: 50px;
+    padding: 25px;
+    /* box-shadow: 5px 5px 15px 5px rgb(112, 112, 112); */
+}
+
+
+.cardOneBig {
+    justify-self: center;
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+    display: flex;
+    border-radius: 0;
+    width: 750px;
+    height: 750px;
+    margin: 50px;
+    padding: 25px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px 5px 15px 5px rgb(112, 112, 112);
+}
+
+
+
+.box {
+    display: grid;
+    align-items: center; /* richtet elemente an der achse senkrecht in der box aus für flex*/
+    justify-content: flex-start; /* richtet elemente an der achse waagrecht in der box aus für grid*/
+    padding: 20px;
+}
+
+.box__quote {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 4px solid var(--dark-grey);
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 10px;
+}
+
+.box__textnormal {
+    text-align: left;
+    /* border-left: 4px solid rgb(150, 148, 136); */
+
+}
+
+.box__textepisode {
+    text-align: right;
+    /* border-left: 4px solid rgb(150, 148, 136); */
+}
+
+.box__headingnormal {
+    text-align: left;
+    font-size: 30px;
+}
+
+.box__headingepisode {
+    text-align: right;
+    font-size: 30px;
+}
+
+
+
+.button {
+    display: inline-block;
+    border-radius: 0px;
+    border: 0px;
+    padding: 10px 30px;
+    background-image: linear-gradient(var(--dark), var(--light-grey));
+}
+
+.button__dark {
+    color: white;
+    background: sienna linear-gradient(sienna, rgb(109, 30, 30)) repeat-x;
+}
+
+
+.box__headingMenuNormal {
+    text-align: left;
+    font-size: 20px;
+}
+
+.box__headingMenuNormal--mod {
+    
+}
+
+.box__headingMenuLarge {
+    text-align: left;
+    font-size: 30px;
+}
+
+
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+
+
+
+.listHighLevel {
+    list-style-type: disc;    
+}
+
+.listHighLevel__important {
+    font-weight: bold;
+}
+
+.listOrdered {
+    list-style-type: lower-roman;    
+}
+
+.listOrdered__important {
+    font-weight: bold;
+}
+
+
+
+.link {
+    color: var(--light);
+}
+
+
+a:hover {
+    color: var(--light-grey);
+}
+
+
+a:visited {
+    color: var(--light-grey);
+}
+
