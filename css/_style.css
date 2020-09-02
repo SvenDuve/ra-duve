@@ -1,7 +1,7 @@
 .container {
     display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: minmax(100px, auto, 100px);
+    grid-template-columns: 15% 80%;
+    grid-template-rows: 100px auto 100px;
     grid-template-areas: "tp tp tp tp tp" "lf ct ct ct ct" "ft ft ft ft ft";
     /* justify-content: center;   */
     border: solid 1px black;
@@ -9,28 +9,55 @@
 
 .headerBox {
     display: flex;
-    grid-template-columns: auto;
-    grid-template-rows: 100%;
+    position: fixed;
+    top: 0;
     justify-content: center;
+    width: 100%;
+    height: 100px;
+    /* grid-template-columns: auto; */
     grid-area: tp;
     border: solid 1px red;
+    background-color: blue;
 }
 
 .menuBox {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
     grid-template-columns: 100%;
-    grid-template-rows: auto;
     grid-area: lf;
     border: solid 1px green;
 }
 
+.menuItem {
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    border: solid 1px pink;
+}
+
 .contentBox {
     display: grid;
+    justify-items: center   ;
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-area: ct;
     border: solid 1px black
 }
+
+.nestedContentBox {
+    justify-self: center;
+    display: grid;
+    width: 750px;
+    height: 450px;
+    margin: 100px;
+    padding: 50px;
+    box-shadow: 5px 5px 15px 5px rgb(112, 112, 112);
+}
+
+
+
 
 .footerBox {
     display: grid;
